@@ -70,17 +70,19 @@ main{
 .labels{
     display: flex;
     position: absolute;
-    bottom: 40px;
-    left: 0;
-    
-
+    bottom: 80px;
+    left: 0;  
 }
 
-.label{
-    color: #fff;
-    font-size: 12px;
-    padding: 5px;
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 20px;
 }
+
 
 
 
@@ -119,6 +121,13 @@ ul.d-inline li{
     width: 100%;
 }
 
+.label{
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
 .label.bg-red{
     background-color: red;
 }
@@ -127,3 +136,19 @@ ul.d-inline li{
     background-color: green;
     margin: 0 5px;
 }
+
+.content-main > .description{
+    font-size: 10px;
+}
+
+.description p span.text-red{
+    color: red;
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.description p span.t-line{
+    text-decoration: line-through;
+    font-size: 9px;
+}
+
