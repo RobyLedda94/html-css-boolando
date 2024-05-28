@@ -197,3 +197,10 @@ ul.d-inline li{
 }
 
 
+/* BONUS */
+
+.heart:hover{
+    color: red;
+}
+
+
