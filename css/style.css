@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    background-color: orangered;
+}
+
+/* Lyout classes */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-15{
+    width: 15%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+
+/* Utility classes */
+
+.py-10{
+    padding: 10px 0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Styling classes */
+
+.content{
+    color: #fff;
+}
+
+.content > ul{
+    list-style-type: none;
+}
+
+ul.d-inline li{
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+
+.content > .logo{
+    width: 100px;
+}
