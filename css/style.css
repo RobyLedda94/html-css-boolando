@@ -91,6 +91,7 @@ main{
 
 
 
+
 /* Styling classes */
 
 .content-header{
@@ -151,4 +152,22 @@ ul.d-inline li{
     text-decoration: line-through;
     font-size: 9px;
 }
+
+
+.content-main:hover .d-block{
+    display: none;
+}
+
+.content-main:hover .d-none{
+    display: block;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
 
