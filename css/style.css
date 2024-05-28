@@ -11,6 +11,9 @@ body{
 
 header{
     background-color: orangered;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* z-index: 1; */
 }
 
 main{
@@ -27,6 +30,7 @@ main{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .row{
@@ -63,6 +67,21 @@ main{
     text-align: center;
 }
 
+.labels{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    
+
+}
+
+.label{
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+
 
 
 
@@ -92,8 +111,19 @@ ul.d-inline li{
 
 
 .content-main{
-    background-color: red;
-    border: 1px solid black;
-    height: 300px;
     margin: 10px;
+    position: relative;
+}
+
+.content-main img{
+    width: 100%;
+}
+
+.label.bg-red{
+    background-color: red;
+}
+
+.label.bg-green{
+    background-color: green;
+    margin: 0 5px;
 }
