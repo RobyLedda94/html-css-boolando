@@ -57,6 +57,10 @@ footer{
     width: 70%;
 }
 
+.justify-content{
+    justify-content: space-between;
+}
+
 
 
 
@@ -108,10 +112,15 @@ footer{
     list-style-type: none;
 }
 
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
 ul.d-inline li{
     font-size: 11px;
     display: inline-block;
-    margin: 0 5px 0 5px;
+    margin: 0 5px 0 0px;
 }
 
 .content-header > .logo{
@@ -174,6 +183,11 @@ ul.d-inline li{
 
 .d-none {
     display: none;
+}
+
+
+.social-text{
+    font-size: 10px;
 }
 
 
