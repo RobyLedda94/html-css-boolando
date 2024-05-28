@@ -133,6 +133,10 @@ ul.d-inline li{
     width: 100px;
 }
 
+.content-header a i{
+    color: #fff;
+}
+
 
 .content-main{
     margin: 10px;
