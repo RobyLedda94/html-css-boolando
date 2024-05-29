@@ -156,11 +156,12 @@ ul.d-inline li{
 
 .label.bg-red{
     background-color: red;
+    margin-right: 5px;
 }
 
 .label.bg-green{
     background-color: green;
-    margin: 0 5px;
+    /* margin: 0 5px; */
 }
 
 .content-main > .description{
